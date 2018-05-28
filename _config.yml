@@ -1,5 +1,5 @@
 name:            International Isotope Society UK Group
-baseurl:         
+baseurl:         ""
 timezone:        Europe/London
 destination:     ./_site
 layouts_dir:     _layouts
