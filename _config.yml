@@ -1,0 +1,7 @@
+name:            International Isotope Society UK Group
+baseurl:         
+timezone:        Europe/London
+destination:     ./_site
+layouts_dir:     _layouts
+data_dir:        _data
+includes_dir:    _includes
