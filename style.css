@@ -2414,8 +2414,8 @@ display: inline-block;
 background-image: url("src/img/twitter.svg")
 }
 @media only screen and (min-width:740px) {.banner-heading {
-font-size: 2.75rem;
-line-height: 3.25rem
+font-size: 3.75rem;
+line-height: 4.25rem
 }
 .banner-buttons .button {
 display: inline-block;
