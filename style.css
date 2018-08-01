@@ -188,6 +188,7 @@ ul,ol {
 }
 ul li,ol li {
 	margin-bottom: 5px
+	padding: 0 0 0 2em
 }
 dl:before,dl:after {
 	content: " ";
