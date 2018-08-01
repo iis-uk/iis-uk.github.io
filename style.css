@@ -386,7 +386,7 @@ button::-moz-focus-inner,input::-moz-focus-inner {
 	margin: 10px auto 20px
 }
 .button {
-	border: 5px #fff;
+	border: 5px solid #fff;
 	background-color: #fff;
 	line-height: normal;
 	padding: .5em 1em;
@@ -397,11 +397,11 @@ button::-moz-focus-inner,input::-moz-focus-inner {
 	transition: all .3s
 }
 .button:hover,.button:active {
-	border: 5px #DD1010;
+	border: 5px solid #DD1010;
 	text-decoration: none
 }
 .button:hover {
-	border: 5px #DD1010;
+	border: 5px solid #DD1010;
 	background: #f9f9f9
 }
 .button-secondary {
