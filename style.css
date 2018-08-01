@@ -187,8 +187,7 @@ ul,ol {
 	padding: 0 0 0 20px
 }
 ul li,ol li {
-	margin-bottom: 5px
-	padding: 0 0 0 2em
+	margin: 0 0 0.5em 2em
 }
 dl:before,dl:after {
 	content: " ";
