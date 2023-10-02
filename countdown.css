@@ -1,20 +1,7 @@
-body{
-	text-align: center;
-	background: #f7c723;
-  font-family: sans-serif;
-  font-weight: 100;
-}
-
-h1{
-  color: #000;
-  font-weight: 100;
-  font-size: 40px;
-  margin: 40px 0px 20px;
-}
-
 #clockdiv{
 	font-family: sans-serif;
 	color: #000;
+	background: #f7c723;
 	display: inline-block;
 	font-weight: 100;
 	text-align: center;
@@ -35,8 +22,8 @@ h1{
 	display: inline-block;
 }
 
-.smalltext{
+#clockdiv .smalltext{
 	color: #555;
-  padding-top: 5px;
+  	padding-top: 5px;
 	font-size: 16px;
 }
