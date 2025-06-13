@@ -37,5 +37,5 @@ function getTimeRemaining(endtime) {
 	  updateClock();
 	  const timeinterval = setInterval(updateClock, 1000);
 	}
-	const deadline = '2024-11-15T09:00:00';
+	const deadline = '2024-11-14T09:00:00';
 	initializeClock('clockdiv', deadline);
