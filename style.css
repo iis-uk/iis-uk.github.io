@@ -41,15 +41,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 	display: block
 }
 
-body {
-  	background-image: url('/images/web_BG.jpg');
-  	background-repeat: no-repeat;
-  	background-attachment: fixed;
-  	background-position: left top;
-	margin: 0
-}
-
-form {
+body,form {
 	margin: 0
 }
 audio,canvas,progress,video {
@@ -1931,6 +1923,10 @@ border-color: #fff
 }
 .banner {
 background: #f7c723;
+background-image: url('/images/web_BG.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: left top;
 text-align: center
 }
 .banner-heading {
