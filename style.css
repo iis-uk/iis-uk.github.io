@@ -1927,7 +1927,7 @@ background-image: url('/images/web_BG.jpg');
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-position: left top;
-background-size: 50% 50%;
+background-size: cover;
 text-align: center
 }
 .banner-heading {
