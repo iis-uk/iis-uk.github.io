@@ -1923,11 +1923,13 @@ border-color: #fff
 }
 .banner {
 background: #f7c723;
-background-image: url('/images/web_BG.jpg');
+
+/* background-image: url('/images/web_BG.jpg');
 background-repeat: no-repeat;
-background-attachment: fixed;
+background-attachment: scroll;
 background-position: left top;
-background-size: 500px;
+background-size: 500px; */
+
 text-align: center
 }
 .banner-heading {
