@@ -14,16 +14,23 @@ title: Register
   <link rel="shortcut icon" href="img/favicon.png">
   
   <link rel="stylesheet" href="https://iis-uk.org/style.css">
-  <style>
-	div iframe[name^="recaptcha"] {
-    position: fixed !important;
-    top: 50% !important;
-    left: 50% !important;
-    transform: translate(-50%, -50%) !important;
-    width: 400px !important;
-    height: 580px !important;
-	}  
-  </style>
+  <style></style>
+
+	<script>
+		const fixRecaptcha = () => {
+   			document.querySelectorAll('iframe[name^="recaptcha"], iframe[title*="recaptcha"]').forEach(el => {
+        		el.style.position = 'fixed';
+    	    	el.style.top = '50%';
+   		    	el.style.left = '50%';
+   		    	el.style.transform = 'translate(-50%, -50%)';
+        		el.style.width = '400px';
+       			el.style.height = '580px';
+        		el.style.zIndex = '2000000000';
+    		});
+		};
+		// Run repeatedly because recapTCHA redraws itself
+		setInterval(fixRecaptcha, 500);
+	</script>
 
 </head>
 <body>
