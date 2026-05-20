@@ -15,23 +15,6 @@ title: Register
   
   <link rel="stylesheet" href="https://iis-uk.org/style.css">
   <style></style>
-
-	<script>
-		const fixRecaptcha = () => {
-   			document.querySelectorAll('iframe[name^="recaptcha"], iframe[title*="recaptcha"]').forEach(el => {
-        		el.style.position = 'fixed';
-    	    	el.style.top = '50%';
-   		    	el.style.left = '50%';
-   		    	el.style.transform = 'translate(-50%, -50%)';
-        		el.style.width = '400px';
-       			el.style.height = '580px';
-        		el.style.zIndex = '2000000000';
-    		});
-		};
-		// Run repeatedly because recapTCHA redraws itself
-		setInterval(fixRecaptcha, 500);
-	</script>
-
 </head>
 <body>
 
@@ -50,7 +33,23 @@ title: Register
 	<div class="showcase-block text-left">
   <div class="container">
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf65ZObFGBLVubBcRQUR3x4CctsDaNROlmZD2fcPEjyKn4OmA/viewform?embedded=true" width="100%" height="4000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+	  
+    <iframe
+      id="JotFormIFrame-261393534780058"
+      title="Registration Form"
+      onload="window.parent.scrollTo(0,0)"
+      allowtransparency="true"
+      allow="geolocation; microphone; camera; fullscreen; payment"
+      src="https://form.jotform.com/261393534780058"
+      frameborder="0"
+      style="min-width:100%;max-width:100%;height:539px;border:none;"
+      scrolling="no"
+    >
+    </iframe>
+    <script src='https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js'></script>
+    <script>window.jotformEmbedHandler("iframe[id='JotFormIFrame-261393534780058']", "https://form.jotform.com/")</script>
+    
+	<!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf65ZObFGBLVubBcRQUR3x4CctsDaNROlmZD2fcPEjyKn4OmA/viewform?embedded=true" width="100%" height="4000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe> -->
 
   </div>
 </div>
